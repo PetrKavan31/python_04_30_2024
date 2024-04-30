@@ -26,7 +26,7 @@ import pickle
 #     main()
 
 
-# 3.prilad z prezentace - piklit přes třídy a pouzit matgicky operator (str?)
+# 3.priklad z prezentace - piklit přes třídy a pouzit matgicky operator (str?)
 # class Person:
 #     def __init__(self, name, last_name):
 #         self.name = name
