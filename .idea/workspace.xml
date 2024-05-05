@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63aa67b1-00b9-4ecf-a80e-d21a7a6cfe9b" name="Changes" comment=" add hw34 file">
+    <list default="true" id="63aa67b1-00b9-4ecf-a80e-d21a7a6cfe9b" name="Changes" comment=" add hw34 file, class + def methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw34.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw34.py" afterDir="false" />
     </list>
@@ -100,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714908823086</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" add hw34 file, class + def methods">
+      <option name="closed" value="true" />
+      <created>1714914653564</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714914653564</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,6 +117,7 @@
     <MESSAGE value="new file - pickle-json" />
     <MESSAGE value=" add" />
     <MESSAGE value=" add hw34 file" />
-    <option name="LAST_COMMIT_MESSAGE" value=" add hw34 file" />
+    <MESSAGE value=" add hw34 file, class + def methods" />
+    <option name="LAST_COMMIT_MESSAGE" value=" add hw34 file, class + def methods" />
   </component>
 </project>
