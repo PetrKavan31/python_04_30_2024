@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63aa67b1-00b9-4ecf-a80e-d21a7a6cfe9b" name="Changes" comment=" add">
+    <list default="true" id="63aa67b1-00b9-4ecf-a80e-d21a7a6cfe9b" name="Changes" comment=" add hw34 file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON2.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSON2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw34.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw34.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.JSON.executor&quot;: &quot;Run&quot;,
-    &quot;Python.JSON2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.JSON.executor": "Run",
+    "Python.JSON2.executor": "Run",
+    "Python.hw34.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -91,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714504729642</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" add hw34 file">
+      <option name="closed" value="true" />
+      <created>1714908823086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714908823086</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -99,6 +108,7 @@
     <MESSAGE value="new file - JSON2" />
     <MESSAGE value="new file - pickle-json" />
     <MESSAGE value=" add" />
-    <option name="LAST_COMMIT_MESSAGE" value=" add" />
+    <MESSAGE value=" add hw34 file" />
+    <option name="LAST_COMMIT_MESSAGE" value=" add hw34 file" />
   </component>
 </project>
