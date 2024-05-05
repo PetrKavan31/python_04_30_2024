@@ -26,6 +26,9 @@ class Car:
     def show_owner(self, text_msg):
         return f"Owner car {self.manufacturer} {self.model} is {text_msg}"
 
+    def save_data_pickle(self):
+        return pickle.dumps(self)
+
 
 car1 = Car("Civic", 2004, "Honda", 1.6, "grey", 1500)
 car2 = Car("Fusion", 2010, "Ford", 1.4, "red", 5000)
