@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63aa67b1-00b9-4ecf-a80e-d21a7a6cfe9b" name="Changes" comment=" add hw34 file, class + def methods, def main(), run">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw34.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw34.py" afterDir="false" />
+    <list default="true" id="63aa67b1-00b9-4ecf-a80e-d21a7a6cfe9b" name="Changes" comment=" run with print - loaded data">
+      <change afterPath="$PROJECT_DIR$/hw35.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714917263001</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" run with print - loaded data">
+      <option name="closed" value="true" />
+      <created>1714919015556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714919015556</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +134,7 @@
     <MESSAGE value=" add hw34 file" />
     <MESSAGE value=" add hw34 file, class + def methods" />
     <MESSAGE value=" add hw34 file, class + def methods, def main(), run" />
-    <option name="LAST_COMMIT_MESSAGE" value=" add hw34 file, class + def methods, def main(), run" />
+    <MESSAGE value=" run with print - loaded data" />
+    <option name="LAST_COMMIT_MESSAGE" value=" run with print - loaded data" />
   </component>
 </project>
