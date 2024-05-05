@@ -36,6 +36,7 @@ class CountryCapitalDict:
         with open(filename, "rb") as file:
             self.data = pickle.load(file)
             print("Data loaded successfully.")
+            return self.data
 
     def __str__(self):
         return f"{self.data}"
@@ -45,6 +46,7 @@ def main():
     ccd = CountryCapitalDict()
     ccd.add_data('Czechia', 'Prague')
     ccd.add_data('Poland', 'Warsaw')
+    ccd.add_data('Ukraine', 'Kyiv')
     print(ccd.find_data("Czechia"))
     ccd.edit_data('Czechia', 'Ostrava')
     print(ccd.find_data("Czechia"))
@@ -52,8 +54,8 @@ def main():
     print(ccd.find_data("Czechia"))
     ccd.save_data("data.pkl")
     ccd.load_data("data.pkl")
-    # loaded_data = ccd.load_data("data.pkl")
-    # print(f"Loaded data from file: {loaded_data}")
+    loaded_data = ccd.load_data("data.pkl")
+    print(f"Loaded data from file: {loaded_data}")
 
 
 if __name__ == "__main__":
