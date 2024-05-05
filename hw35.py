@@ -3,48 +3,50 @@ import json
 
 # Supplement the Car class with the ability to pack and unpack data using json and pickle.
 
-# Implement a class Car. Class fields should store the following:
-# model, year of release, manufacturer, engine capacity,
-# color, price. Implement class methods for data input and output,
-# provide access to individual fields through class methods.
-
 
 class Car:
     type = "Passenger car"
 
-    def __init__(self, model, year_of_release, manufacturer, engine_capacity, color, price):
+    def __init__(self, model, year, manufacturer, engine, color, price):
         self.model = model
-        self.year = year_of_release
+        self.year = year
         self.manufacturer = manufacturer
-        self.engine = engine_capacity
+        self.engine = engine
         self.color = color
         self.price = price
 
-    def show_car(self):
-        print("My car:\n", self.model, self.year, self.manufacturer, self.engine, self.color, self.price)
-
-    def show_owner(self, text_msg):
-        return f"Owner car {self.manufacturer} {self.model} is {text_msg}"
-
-    def save_data_pickle(self):
+    def pack_pickle(self):
         return pickle.dumps(self)
+
+    @classmethod
+    def unpack_pickle(cls, pickle_data):
+        return pickle.loads(pickle_data)
+
+    def pack_json(self):
+        return json.dumps(self.__dict__)
+
+    @classmethod
+    def unpack_json(cls, json_data):
+        data = json.loads(json_data)
+        return cls(**data)
 
 
 car1 = Car("Civic", 2004, "Honda", 1.6, "grey", 1500)
 car2 = Car("Fusion", 2010, "Ford", 1.4, "red", 5000)
 
-car1.show_car()
-car2.show_car()
 
-print(car1.model)
-print(car2.color)
+def main():
+    # pickle packing
+    pickle_data = car1.pack_pickle()
+    print(f"Saved data to pickle file: \n {pickle_data}")
+    from_pickle_car = Car.unpack_pickle(pickle_data)
+    print(f"Loaded data from pickle file: \n {from_pickle_car.__dict__}")
+    # json packing
+    json_data = car2.pack_json()
+    print(f"Saved data to json file: \n {json_data}")
+    from_json_car = Car.unpack_json(json_data)
+    print(f"Loaded data from json file: \n {from_json_car.__dict__}")
 
-print(car1.show_owner("Petr"))
-print(car2.show_owner("Marketa"))
 
-car2.model = "Fiesta"
-print(car2.model)
-car2.show_car()
-
-print(car1.type)
-print(car2.type)
+if __name__ == "__main__":
+    main()
