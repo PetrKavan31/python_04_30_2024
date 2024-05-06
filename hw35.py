@@ -40,7 +40,7 @@ def main():
     pickle_data = car1.pack_pickle()
     print(f"Saved data to pickle file: \n {pickle_data}")
     from_pickle_car = Car.unpack_pickle(pickle_data)
-    print(f"Loaded data from pickle file: \n {from_pickle_car.__dict__}")
+    print(f"Loaded data from pickle file: \n {from_pickle_car.__dict__}\n")
     # json packing
     json_data = car2.pack_json()
     print(f"Saved data to json file: \n {json_data}")
